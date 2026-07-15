@@ -41,7 +41,7 @@ export default function DashboardLayout({ children, activeView, setActiveView })
     : [
         { id: 'employee-dashboard', label: 'Dashboard', icon: LayoutDashboard },
         { id: 'my-tasks', label: 'My Tasks', icon: CheckSquare },
-        { id: 'kanban-board', label: 'Kanban Board', icon: Trello },
+        { id: 'kanban-board', label: 'Kanban Board', icon: Kanban },
         { id: 'documentation', label: 'Documentation', icon: BookOpen },
         { id: 'project-overview', label: 'Project Overview', icon: Briefcase },
         { id: 'ai-growth-guide', label: 'AI Growth Guide', icon: Sparkles },

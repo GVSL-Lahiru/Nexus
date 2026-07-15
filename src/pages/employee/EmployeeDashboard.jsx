@@ -4,7 +4,7 @@ import {
   Sparkles,
   BookOpen,
   CheckSquare,
-  Trello,
+  Kanban,
   Cpu,
   ArrowRight,
   TrendingUp,
@@ -211,7 +211,7 @@ export default function EmployeeDashboard({ setActiveView }) {
         <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <Trello size={20} style={{ color: 'var(--success)' }} />
+              <Kanban size={20} style={{ color: 'var(--success)' }} />
               <h3 style={{ fontSize: '1rem', fontWeight: 700 }}>Kanban Progress</h3>
             </div>
             <span className="badge badge-success">Interactive Board</span>

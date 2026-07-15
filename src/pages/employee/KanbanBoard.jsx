@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../../context/AppContext';
-import { Trello, ArrowRight, ArrowLeft, Send, CheckCircle, ClipboardList, Play } from 'lucide-react';
+import { Kanban, ArrowRight, ArrowLeft, Send, CheckCircle, ClipboardList, Play } from 'lucide-react';
 
 export default function KanbanBoard() {
   const { currentUser, tasks, updateTaskStatus, planTask } = useContext(AppContext);
